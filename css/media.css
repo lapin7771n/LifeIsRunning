@@ -1,0 +1,235 @@
+/* стили для xs-устройств */
+@media (max-width: 767px) {
+    /*Header*/
+    .header {
+        height: auto;
+    }
+
+    .nav__logo {
+        margin-left: 5px;
+    }
+
+    .nav__offer {
+        margin-left: 5px;
+        width: 310px;
+    }
+
+    .date-offer {
+        margin-top: 35px;
+    }
+
+    .date-offer__text {
+        line-height: 0.8em;
+    }
+
+    .button {
+        padding: 2px 15px 5px;
+    }
+
+    /*Benefits*/
+    .benefits-block {
+        height: auto;
+    }
+
+    .benefits-block__tittle {
+        margin: 40px 5px;
+        font-size: 35px;
+    }
+
+    .benefits-block__card {
+        text-align: center !important;
+        height: auto;
+        width: 310px;
+        margin: 0 0 20px !important;
+        border-bottom: 1px solid lightgray;
+        font-size: 30px;
+    }
+
+    /*Partners*/
+    .partners {
+        height: auto;
+    }
+
+    .partners__tittle {
+        margin-top: 50px;
+        font-size: 45px;
+    }
+
+    .partners__puma-logo {
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+    .partners__nike-logo {
+        width: 200px;
+        margin-bottom: 0px;
+    }
+
+    .partners__bottom-logo {
+        width: 110px;
+    }
+
+    /*Call-back*/
+    .call-back {
+        height: auto;
+    }
+
+    .call-back__tittle {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .call-back__text {
+        padding: 0;
+        font-size: 30px;
+        width: 292px;
+        border: none;
+    }
+
+    .call-back__tel, .call-back__tel::placeholder, .call-back__tel:focus {
+        width: 250px;
+        font-size: 34px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .call-back__button {
+        width: 200px;
+        font-size: 35px;
+        padding: 0;
+        margin: 50px auto;
+    }
+
+    /*Footer*/
+    .footer {
+        height: 80px;
+    }
+
+    .footer__text {
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+
+    .footer__logo {
+        margin-top: 0;
+        font-size: 30px;
+        margin-right: 5px;
+    }
+
+    .footer__social {
+        margin-top: 5px;
+    }
+
+    .footer__social-line__facebook {
+        background-size: 20px;
+    }
+
+    .footer__social-line__instagram {
+        background-size: 20px;
+    }
+
+    .footer__social-line__pinterest {
+        background-size: 20px;
+    }
+
+    .footer__social-line > a {
+        font-size: 10px;
+        padding-left: 22px;
+        height: 22px;
+    }
+}
+
+/* стили для sm-устройств */
+@media (min-width: 768px) and (max-width: 991px) {
+    /*Header*/
+    .date-offer {
+        margin-top: 10px;
+        padding: 15px 5px 40px;
+    }
+
+    .button {
+        padding: 5px 35px 10px;
+        margin-top: 10px;
+    }
+
+    /*Benefits*/
+    .benefits-block {
+        height: auto;
+    }
+
+    .benefits-block__card {
+        height: auto;
+        width: 345px;
+    }
+
+    /*Partners*/
+    .partners {
+        height: auto;
+    }
+
+    .partners__nike-logo {
+        width: 360px;
+        margin: 0;
+    }
+
+    .partners__puma-logo {
+        width: 360px;
+    }
+
+    .partners__bottom-logo {
+        width: 181px;
+    }
+
+    /*Call-back*/
+    .call-back {
+        height: auto;
+    }
+
+    .call-back__tittle {
+        margin-bottom: 20px;
+    }
+
+    .call-back__text {
+        font-size: 45px;
+        border-right: none;
+    }
+
+    .call-back__tel {
+        width: 465px;
+        margin: 0 auto;
+    }
+
+    .call-back__button {
+        margin: 50px auto;
+    }
+}
+
+/* стили для md-устройств */
+@media (min-width: 991px) and (max-width: 1199px) {
+    /*Header*/
+    .date-offer {
+        margin-top: 35px;
+    }
+
+    .partners {
+        margin-top: 100px;
+    }
+
+    .call-back {
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+}
+
+/* стили для lg-устройств */
+@media (min-width: 1200px) {
+    .benefits-block__tittle {
+        margin-bottom: 100px;
+    }
+
+    .call-back {
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+}

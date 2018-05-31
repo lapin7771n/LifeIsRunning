@@ -1,0 +1,264 @@
+/*Specification*/
+body {
+    font-family: "PT Sans Narrow", serif;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    color: #fff;
+    font-family: "PT Sans Narrow", sans-serif !important;
+    font-weight: bold !important;
+}
+
+/*Header*/
+.header {
+    background: url("../img/main.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 45px;
+    box-shadow: 0 10px 50px rgba(33, 41, 49, 0.3);
+}
+
+.first-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    color: #fff;
+    font-size: 72px;
+    background-color: rgba(254, 202, 1, 0.5);
+    padding: 15px 35px;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+
+.nav__logo:hover, .nav__offer:hover {
+    cursor: default;
+    background-color: rgba(254, 202, 1, 0.8);
+}
+
+.nav__offer {
+    width: 584px;
+    line-height: 0.9em;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-family: "PT Sans Narrow", serif;
+    font-weight: bold;
+    background-color: rgba(254, 202, 1, 0.5);
+    border-radius: 5px;
+    padding: 5px 40px 12px;
+    transition: all 1s ease;
+}
+
+.date-offer {
+    margin: 50px auto 0;
+    width: 731px;
+    text-align: center;
+    background-color: rgba(67, 89, 105, 0.6);
+    padding: 15px 15px 50px;
+}
+
+.date-offer__date {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+.date-offer__text {
+    color: #fff;
+    font-family: "PT Sans Narrow", serif;
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 0.1em;
+}
+
+.button {
+    text-align: center;
+    display: block;
+    margin: 50px 0;
+    font-size: 60px;
+    color: #ffffff;
+    background-color: #f87f01;
+    padding: 5px 75px 10px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #f87f01 !important;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 5px solid #f87f01;
+}
+
+/*Second block*/
+.benefits-block {
+    height: auto;
+    font-family: "PT Sans Narrow", serif;
+    font-weight: bold;
+    color: #212931;
+    font-size: 30px;
+}
+
+.benefits-block__tittle {
+    margin: 50px;
+    font-size: 55px;
+    color: #212931;
+    text-align: center;
+}
+
+.benefits-block__card {
+    height: auto;
+    width: 336px;
+    display: block;
+}
+
+.benefits-block__left {
+    text-align: right;
+    margin-right: 30px;
+    padding-right: 5px;
+    border-right: 1px solid lightgray;
+}
+
+.benefits-block__right{
+    border-left: 1px solid lightgray;
+    padding-left: 5px;
+}
+
+.benefits-block__top {
+    border-bottom: 1px solid lightgray;
+}
+
+.benefits-block__bottom {
+    border-top: 1px solid lightgray;
+    padding-left: 5px;
+    width: 450px;
+}
+
+/*Third block (partners)*/
+.partners {
+    height: auto;
+}
+
+.partners__tittle, .call-back__tittle {
+    font-size: 55px;
+    margin-bottom: 95px;
+}
+
+.partners__puma-logo {
+    width: 388px;
+}
+
+.partners__nike-logo {
+    width: 352px;
+    margin-bottom: 10px;
+}
+
+.partners__bottom-logo {
+    width: 195px;
+}
+
+/*Fourth section (Call-Back)*/
+.call-back {
+    font-family: "PT Sans Narrow", serif;
+    font-weight: bold;
+    margin-top: 50px;
+    height: auto;
+}
+
+.call-back__text {
+    text-align: center;
+    font-size: 46px;
+    width: 370px;
+    border-right: 1px solid lightgray;
+    padding-left: 5px;
+}
+
+.call-back__tel, .call-back__tel:focus, .call-back__tel::placeholder {
+    font-size: 60px;
+    font-family: "PT Sans Narrow", serif;
+    font-weight: bold;
+    color: #212931 !important;
+    outline: none;
+    border: none;
+}
+
+.call-back__button {
+    margin-left: 20px;
+    font-family: "PT Sans Narrow", serif !important;
+    font-weight: bold;
+    border: none;
+    padding: 5px 32px;
+    width: 345px;
+}
+
+.call-back__button:focus {
+    outline: none;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #435969;
+    height: 168px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow", serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer {
+    height: 168px;
+}
+
+.footer__text {
+    margin-top: 40px;
+}
+
+.footer__social-line__facebook {
+    background: url("../img/fb_logo.png") no-repeat;
+    background-size: 32px;
+}
+
+.footer__social-line > a {
+    margin-bottom: 2px;
+    color: white;
+    display: flex;
+    height: 34px;
+    font-weight: normal !important;
+    font-size: 16px;
+    padding-left: 34px;
+    padding-top: 4px;
+    -webkit-background-size: 32px;
+}
+
+.footer__social {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.footer__social-line__instagram {
+    background: url("../img/instagram.png") no-repeat;
+    background-size: 32px;
+}
+
+.footer__social-line__pinterest {
+    background: url("../img/pinterest.png") no-repeat;
+    background-size: 32px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.footer__logo {
+    margin-top: 20px;
+    font-size: 72px;
+}
